@@ -5,46 +5,47 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>White Male.dev</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          whitemale.dev
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          Because being{' '}
+          <code className={styles.code}>{'{ gender: "male", ethnicity: "white" }'}</code>{' '}
+          is far too difficult.
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
+          <a href="https://www.blackgirlscode.com/" className={styles.card}>
+            <h3>Black Girls Code &rarr;</h3>
+            <p>Providing technology education for African-American girls</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
+          <a href="https://www.womenwhocode.com/" className={styles.card}>
+            <h3>Women Who Code &rarr;</h3>
+            <p>Non-profit dedicated to inspiring women to excel in technology careers</p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://www.blacksintechnology.net/"
             className={styles.card}
           >
-            <h3>Deploy &rarr;</h3>
+            <h3>Blacks In Technology &rarr;</h3>
+            <p>Establishing standards for world class technical excellence</p>
+          </a>
+
+          <a
+            href="https://outintech.com/"
+            className={styles.card}
+          >
+            <h3>Out In Tech &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              World’s largest non-profit community of LGBTQ+ tech leaders
             </p>
           </a>
         </div>
