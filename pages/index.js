@@ -17,7 +17,7 @@ export default function Home() {
         <p className={styles.description}>
           Because being{' '}
           <code className={styles.code}>{'{ gender: "male", ethnicity: "white" }'}</code>{' '}
-          is far too difficult.
+          in tech is <em>far too difficult...</em>
         </p>
 
         <div className={styles.grid}>
